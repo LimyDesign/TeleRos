@@ -1,0 +1,13 @@
+service cdrserver
+{
+	#type = INTERNAL 
+	#id = stream
+	#socket_type = stream 
+	protocol = tcp 
+	user = root 
+	wait = no 
+	disable = no
+	port = 5151
+	server = /var/www/html/jrate/admin/bin/in.avaya.pl 
+	FLAGS = IPv4
+}

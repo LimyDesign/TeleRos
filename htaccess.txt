@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "JRate Private Zone"
+AuthUserFile /var/www/html/jrate/.htpassword
+Require valid-user
